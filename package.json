@@ -1,20 +1,44 @@
 {
   "name": "movies-app",
+  "author": "Otávio Bastilho",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://obeavis.github.io/movies-app",
+  "keywords": [
+    "react",
+    "redux",
+    "reduxsauce",
+    "tailwind",
+    "emotion"
+  ],
   "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "emotion": "^10.0.27",
     "react": "^16.13.1",
+    "react-bottom-scroll-listener": "^4.1.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-intl": "^5.8.5",
+    "react-lazy-load-image-component": "^1.5.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "reduxsauce": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/main.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +54,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
   }
 }
