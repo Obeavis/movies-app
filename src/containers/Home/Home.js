@@ -12,7 +12,6 @@ const Home = () => {
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
   const loadingMore = () => {
-    console.log('basicState: ', basicState.page);
     if (basicState.page < totalPages) {
       dispatch({ type: "SET_PAGE", payload: basicState.page + 1 });
     }

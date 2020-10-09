@@ -15,6 +15,7 @@ const Header = () => {
   const gotoMovies = () => {
     history.push("/");
     setValueToSearch("");
+    window.scrollTo(0, 0);
     if (basicState.search) {
       dispatch({ type: "CLEAR_MOVIES" });
       dispatch({ type: "SET_PAGE", payload: 1 });
@@ -38,6 +39,7 @@ const Header = () => {
 			e.target.reset();
 			history.push("/");
       setValueToSearch("");
+      window.scrollTo(0, 0);
       dispatch({ type: "LOADING", payload: true });
       dispatch({ type: "CLEAR_MOVIES" });
       dispatch({ type: "SET_PAGE", payload: 1 });
