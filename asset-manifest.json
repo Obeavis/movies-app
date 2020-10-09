@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Movies-App/static/css/main.eac5f307.chunk.css",
-    "main.js": "/Movies-App/static/js/main.bf26c4c1.chunk.js",
-    "main.js.map": "/Movies-App/static/js/main.bf26c4c1.chunk.js.map",
-    "runtime-main.js": "/Movies-App/static/js/runtime-main.ffc1b680.js",
-    "runtime-main.js.map": "/Movies-App/static/js/runtime-main.ffc1b680.js.map",
-    "static/js/2.722a8023.chunk.js": "/Movies-App/static/js/2.722a8023.chunk.js",
-    "static/js/2.722a8023.chunk.js.map": "/Movies-App/static/js/2.722a8023.chunk.js.map",
-    "index.html": "/Movies-App/index.html",
-    "precache-manifest.44b365917e4010ea3d97755f253dca42.js": "/Movies-App/precache-manifest.44b365917e4010ea3d97755f253dca42.js",
-    "service-worker.js": "/Movies-App/service-worker.js",
-    "static/css/main.eac5f307.chunk.css.map": "/Movies-App/static/css/main.eac5f307.chunk.css.map",
-    "static/js/2.722a8023.chunk.js.LICENSE.txt": "/Movies-App/static/js/2.722a8023.chunk.js.LICENSE.txt",
-    "static/media/brazil-flag.png": "/Movies-App/static/media/brazil-flag.a5e63aba.png",
-    "static/media/magnifier.7f9eda5f.svg": "/Movies-App/static/media/magnifier.7f9eda5f.svg",
-    "static/media/star.0e326f20.svg": "/Movies-App/static/media/star.0e326f20.svg",
-    "static/media/usa-flag.png": "/Movies-App/static/media/usa-flag.4d460eba.png"
+    "main.css": "./static/css/main.eac5f307.chunk.css",
+    "main.js": "./static/js/main.26547f71.chunk.js",
+    "main.js.map": "./static/js/main.26547f71.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8d090547.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8d090547.js.map",
+    "static/js/2.722a8023.chunk.js": "./static/js/2.722a8023.chunk.js",
+    "static/js/2.722a8023.chunk.js.map": "./static/js/2.722a8023.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.357a28b49d800f0203bbe3f5f26b83ed.js": "./precache-manifest.357a28b49d800f0203bbe3f5f26b83ed.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.eac5f307.chunk.css.map": "./static/css/main.eac5f307.chunk.css.map",
+    "static/js/2.722a8023.chunk.js.LICENSE.txt": "./static/js/2.722a8023.chunk.js.LICENSE.txt",
+    "static/media/brazil-flag.png": "./static/media/brazil-flag.a5e63aba.png",
+    "static/media/magnifier.7f9eda5f.svg": "./static/media/magnifier.7f9eda5f.svg",
+    "static/media/star.0e326f20.svg": "./static/media/star.0e326f20.svg",
+    "static/media/usa-flag.png": "./static/media/usa-flag.4d460eba.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ffc1b680.js",
+    "static/js/runtime-main.8d090547.js",
     "static/js/2.722a8023.chunk.js",
     "static/css/main.eac5f307.chunk.css",
-    "static/js/main.bf26c4c1.chunk.js"
+    "static/js/main.26547f71.chunk.js"
   ]
 }
