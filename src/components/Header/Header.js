@@ -25,6 +25,7 @@ const Header = () => {
 
   const changeLanguage = (language) => {
     if (language !== basicState.language) {
+      window.scrollTo(0, 0);
       dispatch({ type: "LANGUAGE", payload: language });
       dispatch({ type: "LOADING", payload: true });
       dispatch({ type: "CLEAR_MOVIES" });
@@ -36,8 +37,8 @@ const Header = () => {
     e.preventDefault();
     if (valueToSearch) {
       dispatch({ type: "SEARCH", payload: valueToSearch });
-			e.target.reset();
-			history.push("/");
+      e.target.reset();
+      history.push("/");
       setValueToSearch("");
       window.scrollTo(0, 0);
       dispatch({ type: "LOADING", payload: true });
@@ -55,7 +56,10 @@ const Header = () => {
         >
           <span className="text-xl lg:text-2xl font-extrabold">TMDb</span>
         </div>
-        <form className="relative flex-grow mx-2 sm:mx-5" onSubmit={(e) => search(e)}>
+        <form
+          className="relative flex-grow mx-2 sm:mx-5"
+          onSubmit={(e) => search(e)}
+        >
           <input
             className="py-1 pl-3 block w-full appearance-none leading-normal border-2 border-transparent rounded-lg focus:outline-none focus:border-tertiary text-left select-none truncate bg-white shadow-md"
             placeholder="Search"
