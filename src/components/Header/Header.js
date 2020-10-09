@@ -53,7 +53,7 @@ const Header = () => {
         >
           <span className="text-xl lg:text-2xl font-extrabold">TMDB</span>
         </div>
-        <form className="relative flex-grow mx-5" onSubmit={(e) => search(e)}>
+        <form className="relative flex-grow mx-2 sm:mx-5" onSubmit={(e) => search(e)}>
           <input
             className="py-1 pl-3 block w-full appearance-none leading-normal border-2 border-transparent rounded-lg focus:outline-none focus:border-tertiary text-left select-none truncate bg-white shadow-md"
             placeholder="Search"
@@ -67,7 +67,7 @@ const Header = () => {
           </button>
         </form>
 
-        <div className="flex mr-3 sm:mr-0">
+        <div className="flex">
           <img
             className="mx-1 cursor-pointer rounded-sm"
             src={brazil}
@@ -76,7 +76,7 @@ const Header = () => {
             onClick={() => changeLanguage("pt-BR")}
           />
           <img
-            className="mx-1 cursor-pointer rounded-sm"
+            className="mx-1 cursor-pointer rounded-sm mr-10 sm:mr-0"
             src={eua}
             width="35rem"
             alt="eua-flag"
