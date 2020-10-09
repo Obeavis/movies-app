@@ -51,7 +51,7 @@ const Header = () => {
           className="ml-3 sm:ml-0 bg-tertiary rounded-sm py-1 px-2 cursor-pointer"
           onClick={() => gotoMovies()}
         >
-          <span className="text-xl lg:text-2xl font-extrabold">TMDB</span>
+          <span className="text-xl lg:text-2xl font-extrabold">TMDb</span>
         </div>
         <form className="relative flex-grow mx-2 sm:mx-5" onSubmit={(e) => search(e)}>
           <input

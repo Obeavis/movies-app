@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -10,7 +10,7 @@ import Home from "containers/Home";
 import MovieDetails from "containers/MovieDetails";
 
 const Routes = () => (
-  <Router>
+  <Router basename='/'>
     <Header />
     <Switch>
       <Redirect exact from="/movie" to="/" />
